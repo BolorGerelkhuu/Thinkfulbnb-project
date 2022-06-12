@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
+  width: 100%;
 }
 
 h2 {
@@ -128,11 +129,13 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 780px) {
   header {
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
+    width: 100%;
+    margin: 0 auto;
   }
   .logo {
     font-size: 42px;
